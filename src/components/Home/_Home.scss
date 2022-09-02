@@ -1,0 +1,65 @@
+@use "../../styles";
+
+.name {
+    margin-top: 0;
+    padding: 0;
+    font-size: 125px;
+    font-weight: bold;
+}
+
+.home-title {
+    margin-top: -50px;
+    color: styles.$text-title;
+    font-size: 30px;
+}
+
+.home-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.home-information {
+    cursor: default;
+    margin-bottom: 1.5em;
+    color: styles.$text-alt;
+    // text-shadow: rgba(126, 126, 126, 0.707) 0px 0px 10px;
+    font-family: 'Ubuntu Mono', monospace;
+    user-select: none;
+}
+
+.nav-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav-button {
+    background-color: transparent;
+    background-color: rgba(126, 126, 126, 0.134);
+    border-radius: 2.5px;
+    border: none;
+    color: styles.$text-alt;
+    font-family: 'Ubuntu Mono', monospace !important;
+    font-size: 19px;
+    transition: .5s;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 1%;
+
+    &:hover {
+        cursor: pointer;
+        background-color: styles.$text-hover;
+        transition: .5s;
+    }
+
+    &:active {
+        cursor: pointer;
+        background-color: styles.$text-active;
+        transition: .5s;
+    }
+}

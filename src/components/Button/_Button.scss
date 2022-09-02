@@ -1,0 +1,21 @@
+@use '../../styles';
+
+
+.project-logo {
+    transition: .5s;
+    cursor: pointer;
+    width: 50px;
+    transform: scale(1.25);
+
+    &.unClicked {
+        filter: grayscale(100%);
+        transition: .5s;
+
+        &:hover {
+            transform: scale(1.1);
+            filter: grayscale(50%);
+            transition: .5s;
+        }
+    }
+
+}

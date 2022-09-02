@@ -1,0 +1,29 @@
+@use '../../styles';
+@import url(//fonts.googleapis.com/css?family=Vibur);
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+.projects-section {
+    height: 110vh;
+
+}
+
+.project-header {
+    font-family: 'Ubuntu Mono', monospace;
+    color: transparent;
+    text-align: center;
+    user-select: none;
+    margin-bottom: 0px;
+}
+
+.project-options {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+
+    button {
+        background: transparent;
+        outline: none;
+        border: none;
+    }
+}

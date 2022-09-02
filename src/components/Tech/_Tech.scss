@@ -1,0 +1,48 @@
+@use '../../styles';
+
+.tech-section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.tech-information {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.tech-tools {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 80vw;
+
+  p {
+    color: styles.$text-main;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: larger;
+    font-weight: bold;
+  }
+
+  img {
+    height: 110px;
+  }
+
+}
+
+.tech-title {
+  margin-bottom: 30px;
+  font-family: 'Ubuntu Mono', monospace;
+  color: styles.$text-main;
+  text-align: center;
+  margin: 20px;
+}
