@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2b000847.css",
+    "main.js": "/static/js/main.da2cc489.js",
+    "static/media/luatide.gif": "/static/media/luatide.f7c90eedaa66e3c8c23f.gif",
+    "static/media/book-co1.gif": "/static/media/book-co1.52a76bbde4a8cf6f1a3c.gif",
+    "static/media/book-co2.gif": "/static/media/book-co2.dfca945646f6a989a4c8.gif",
+    "static/media/luatide.png": "/static/media/luatide.6f504e4aae454c963c8a.png",
+    "static/media/me.PNG": "/static/media/me.f6023e49360e2fe353cd.PNG",
+    "static/media/books-copic.png": "/static/media/books-copic.05df260aad2f2238c2ea.png",
+    "static/media/eventHunterpic.png": "/static/media/eventHunterpic.2402af4219ddda858a0e.png",
+    "static/media/eventhunter.gif": "/static/media/eventhunter.806fbd86cdefdd3ea6be.gif",
+    "static/media/postgresql.png": "/static/media/postgresql.77effd05cdc4075a0c45.png",
+    "static/media/react.png": "/static/media/react.b76698cf6e821b8a8758.png",
+    "static/media/nodejs.png": "/static/media/nodejs.774d49812d5a2ab515ff.png",
+    "static/media/ruby.png": "/static/media/ruby.5d2f361efdd0664f4e15.png",
+    "static/media/rails.png": "/static/media/rails.ea7de2bec9e09b58b5b0.png",
+    "static/media/css3.png": "/static/media/css3.41f553cfa482247b600d.png",
+    "static/media/html5.png": "/static/media/html5.54aecf4a63801d9c3481.png",
+    "static/media/javascript.png": "/static/media/javascript.266bd9fb2663dcc057b4.png",
+    "index.html": "/index.html",
+    "main.2b000847.css.map": "/static/css/main.2b000847.css.map",
+    "main.da2cc489.js.map": "/static/js/main.da2cc489.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b000847.css",
+    "static/js/main.da2cc489.js"
+  ]
+}
