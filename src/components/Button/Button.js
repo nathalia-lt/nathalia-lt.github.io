@@ -2,6 +2,7 @@ import ReactTooltip from 'react-tooltip';
 import booksco from "../../assets/Projects/booksco/books-coicon.png"
 import eventhunter from "../../assets/Projects/eventhunter/eventhuntericon.png"
 import luatide from "../../assets/Projects/luatide/luatideicon.png"
+import traderblotter from "../../assets/Projects/traderblotter/traderblottericon.png"
 
 export default function Button({ project, projectToShow, setProjectToShow }) {
 
@@ -20,6 +21,9 @@ export default function Button({ project, projectToShow, setProjectToShow }) {
         case 'luatide':
             img = luatide
             break
+        case 'traderblotter':
+            img = traderblotter
+            break
     }
 
     return (
@@ -30,7 +34,7 @@ export default function Button({ project, projectToShow, setProjectToShow }) {
                 src={img}
                 alt={project.id}
             />
-            <ReactTooltip id={project.id} place="bottom" type= {project.type} effect='solid'>
+            <ReactTooltip id={project.id} place="bottom" type={project.type} effect='solid'>
                 <span>{project.name}</span>
             </ReactTooltip>
         </button>

@@ -9,7 +9,7 @@ export default function About() {
                         <img src={myPhoto} alt="me" className='about-photo' />
                         <div className="about-description">
                             <p>
-                                At this time, I am open to any internship or apprenticeship opportunities in software engineering.
+                                At this time, I am open to junior FrontEnd developer, any internship or apprenticeship opportunities in software engineering.
                             </p>
                         </div>
                     </div>

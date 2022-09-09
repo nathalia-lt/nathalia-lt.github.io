@@ -7,6 +7,7 @@ import eventhunterGif from "../../assets/Projects/eventhunter/eventhunter.gif"
 import bookco1 from "../../assets/Projects/booksco/book-co1.gif"
 import bookco2 from "../../assets/Projects/booksco/book-co2.gif"
 import luatide from "../../assets/Projects/luatide/luatide.gif"
+import traderblotter from "../../assets/Projects/traderblotter/traderblottergif.gif"
 
 
 export default function Project({ project }) {
@@ -27,21 +28,23 @@ export default function Project({ project }) {
         <div>
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" />
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" />
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/>  
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40" />
 
         </div>
     </div>
 
-const madeWithFullStackAlt = <div className="madewith">
-<div>Made With:</div>
-<div>
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" />
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" />
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" alt="ruby" width="40" height="40" />
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg" alt="rails" width="40" height="40" />
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40" />
-</div>
-</div>
+    const madeWithFullStackAlt = <div className="madewith">
+        <div>Made With:</div>
+        <div>
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" />
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" />
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" alt="ruby" width="40" height="40" />
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg" alt="rails" width="40" height="40" />
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40" />
+        </div>
+    </div>
+
+
 
 
     let stack;
@@ -60,6 +63,10 @@ const madeWithFullStackAlt = <div className="madewith">
         case 'luatide':
             gif = luatide;
             stack = madeWithFullStackAlt;
+            break
+        case 'traderblotter':
+            gif = traderblotter;
+            stack = madeWithFrontEnd;
             break
 
     }

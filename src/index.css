@@ -80,7 +80,7 @@
 }
 .contact-options p {
   color: black;
-  font-family: "Ubuntu Mono", monospace;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-shadow: rgb(126, 126, 126) 0px 0px 5px;
   font-size: larger;
   font-weight: bold;
@@ -132,7 +132,7 @@
   cursor: default;
   margin-bottom: 1.5em;
   color: rgb(68, 68, 68);
-  font-family: "Ubuntu Mono", monospace;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -151,7 +151,7 @@
   border-radius: 2.5px;
   border: none;
   color: rgb(68, 68, 68);
-  font-family: "Ubuntu Mono", monospace !important;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 19px;
   transition: 0.5s;
   margin-left: 15px;
@@ -185,7 +185,7 @@
   border-radius: 2.5px;
   border: none;
   color: rgb(68, 68, 68);
-  font-family: "Ubuntu Mono", monospace !important;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 19px;
   transition: 0.5s;
   margin-left: 15px;
@@ -280,7 +280,7 @@
 }
 
 .project-header {
-  font-family: "Ubuntu Mono", monospace;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: transparent;
   text-align: center;
   -webkit-user-select: none;
@@ -327,7 +327,7 @@
 }
 .tech-tools p {
   color: black;
-  font-family: "Ubuntu Mono", monospace;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: larger;
   font-weight: bold;
 }
@@ -337,7 +337,7 @@
 
 .tech-title {
   margin-bottom: 30px;
-  font-family: "Ubuntu Mono", monospace;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: black;
   text-align: center;
   margin: 20px;

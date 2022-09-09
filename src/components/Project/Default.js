@@ -3,6 +3,7 @@ import eventhunterphoto from "../../assets/Projects/eventhunter/eventHunterpic.p
 import bookscopic from  "../../assets/Projects/booksco/books-copic.png"
 import luatide from "../../assets/Projects/luatide/luatide.png"
 import allProjects from "../Projects/ProjectList";
+import traderblotter from "../../assets/Projects/traderblotter/traderblotterpic.png"
 
 export default function Default({setProjectToShow}) {
 
@@ -20,8 +21,8 @@ export default function Default({setProjectToShow}) {
             case 'luatide':
                 photo = luatide
                 break
-            case 'trader':
-                photo = eventhunterphoto
+            case 'traderblotter':
+                photo = traderblotter
                 break
         }
         return (
