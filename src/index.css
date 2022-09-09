@@ -374,7 +374,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(244, 213, 157) !important;
+  background-color: #ecd3ab !important;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   max-width: 100vw !important;
   overflow-x: hidden;
