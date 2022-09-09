@@ -44,6 +44,7 @@
   cursor: pointer;
   width: 50px;
   transform: scale(1.25);
+  align-self: center;
 }
 .project-logo.unClicked {
   filter: grayscale(100%);
@@ -51,6 +52,34 @@
 }
 .project-logo.unClicked:hover {
   transform: scale(1.1);
+  filter: grayscale(50%);
+  transition: 0.5s;
+}
+.project-logo.eventhunter {
+  transform: scale(1.15);
+  filter: invert(0%);
+  transition: 0.5s;
+}
+.project-logo.eventhunter.unClicked {
+  filter: invert(50%);
+  transition: 0.5s;
+}
+.project-logo.eventhunter.unClicked:hover {
+  transform: scale(1.05);
+  filter: grayscale(50%);
+  transition: 0.5s;
+}
+.project-logo.traderblotter {
+  transform: scale(1.75);
+  filter: invert(0%);
+  transition: 0.5s;
+}
+.project-logo.traderblotter.unClicked {
+  filter: invert(50%);
+  transition: 0.5s;
+}
+.project-logo.traderblotter.unClicked:hover {
+  transform: scale(1.5);
   filter: grayscale(50%);
   transition: 0.5s;
 }
@@ -114,7 +143,7 @@
 
 .home-title {
   margin-top: -50px;
-  color: rgb(118, 115, 115);
+  color: #9c2e35;
   font-size: 30px;
 }
 
@@ -206,10 +235,16 @@
   text-align: center;
   font-size: large;
   transform: scale(2);
+  color: #9c2e35;
 }
 .project-title.photo {
   font-size: 12px;
 }
+.project-title.tech {
+  margin: 20px;
+  margin-bottom: 50px;
+}
+
 .project-photo {
   margin-left: 15px;
   margin-right: 15px;
@@ -332,22 +367,14 @@
   font-weight: bold;
 }
 .tech-tools img {
-  height: 110px;
-}
-
-.tech-title {
-  margin-bottom: 30px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: black;
-  text-align: center;
-  margin: 20px;
+  height: 90px;
 }
 
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: wheat !important;
+  background-color: rgb(244, 213, 157) !important;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   max-width: 100vw !important;
   overflow-x: hidden;

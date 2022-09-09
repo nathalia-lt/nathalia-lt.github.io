@@ -14,15 +14,21 @@ export default function Button({ project, projectToShow, setProjectToShow }) {
     switch (project.id) {
         case 'books-co':
             img = booksco
+            buttonClass+=' '+project.id
             break
         case 'eventhunter':
             img = eventhunter
+            buttonClass+=' '+project.id
             break
         case 'luatide':
             img = luatide
+            buttonClass+=' '+project.id
             break
         case 'traderblotter':
             img = traderblotter
+            buttonClass+=' '+project.id
+            break
+        default:
             break
     }
 

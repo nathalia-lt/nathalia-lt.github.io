@@ -7,9 +7,8 @@ const allProjects = [
         "tagline": "An interactive book resource application where users can search for new books to read and track their reading history",
         "features": [
             "- Search for any book by title, author or genre",
-            "- Join a book club",
-            "- Rate and write a review",
-            "- React to a review "
+            "- Join a book club and sharing recommendations",
+            "- Rate and write a review or react to other users' reviews",
         ],
         "github": "https://github.com/nathalia-lt/books-co/",
         "deploy": "https://books-co.herokuapp.com/",
@@ -23,8 +22,8 @@ const allProjects = [
         "tagline": "A webpage that utilizes a Ticketmaster API to provide information about events happening in the United States.",
         "features": [
             "- Search for any specific event",
-            "- Save favourites events",
-            "- Get links to buy tickets"
+            "- Save favourite events for later viewing",
+            "- Access links to buy tickets"
         ],
         "github": "https://github.com/nathalia-lt/eventhunter",
         "deploy": "nathalia-lt.github.io/eventhunter",
@@ -43,7 +42,7 @@ const allProjects = [
             "- The API used in this app is no longer supported"
         ],
         "github": "https://github.com/nathalia-lt/Lua-Tide",
-        "type": "error"
+        "type": "warning"
     },
 
     {
@@ -52,15 +51,14 @@ const allProjects = [
         "gifWidth": "650",
         "tagline": "An app where you can buy or sell foreign currency in real time.",
         "features": [
-            "- User can check the highest and lowest stock price of the day",
-            "- When you click either buy or sell the transaction goes to the trasaction display",
-            "- User can check the crurrency flactuation in real time",
-            "- Integrated Newscatcher API to display world News",
-            "Obs: This app uses foreign currency fake data"
+            "- Watch exchange rates fluctuate in real time",
+            "- Learn about the highest and lowest rates of the day",
+            "- Perform buy/sell transactions on demand",
+            "- Integrated Newscatcher API to display the latest news from around the world",
         ],
         "github": "https://github.com/nathalia-lt/traderblotter/",
         "deploy": "nathalia-lt.github.io/traderblotter/",
-        "type": "info"
+        "type": "error"
     },
 
 

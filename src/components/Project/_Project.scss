@@ -4,12 +4,17 @@
     text-align: center;
     font-size: large;
     transform: scale(2);
+    color: #9c2e35;
 
     &.photo {
         font-size: 12px;
     }
 
-    &.default {
+    &.default {}
+
+    &.tech {
+        margin: 20px;
+        margin-bottom: 50px;
     }
 }
 
@@ -73,7 +78,8 @@
     &.images {
         margin-top: 15px;
     }
-    img{
+
+    img {
         margin-right: 3%;
     }
 }

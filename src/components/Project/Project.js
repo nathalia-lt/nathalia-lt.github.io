@@ -38,6 +38,7 @@ export default function Project({ project }) {
         <div>
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" />
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" />
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40" />
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" alt="ruby" width="40" height="40" />
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg" alt="rails" width="40" height="40" />
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40" />
@@ -58,11 +59,11 @@ export default function Project({ project }) {
         case 'books-co':
             gif = bookco1;
             gif2 = bookco2;
-            stack = madeWithFullStack;
+            stack = madeWithFullStackAlt;
             break
         case 'luatide':
             gif = luatide;
-            stack = madeWithFullStackAlt;
+            stack = madeWithFullStack;
             break
         case 'traderblotter':
             gif = traderblotter;
@@ -73,12 +74,14 @@ export default function Project({ project }) {
 
     const titleClass = 'project-title ' + project.id
 
+    let secondGifToDisplay = gif2 ? <img src={gif2} width={project.gifWidth} /> : null; // only displays if there is a second gif to show
+
     return (
         <React.Fragment>
             <h2 className={titleClass}>{project.name}</h2>
             <div className="project-display">
                 <img src={gif} width={project.gifWidth} />
-                <img src={gif2} width={project.gifWidth} />
+                {secondGifToDisplay}
 
             </div>
             <div className="project-description">
@@ -91,6 +94,10 @@ export default function Project({ project }) {
                     <br />
                     {project.features[2]}
                     <br />
+                    {project.features.length > 3 ? <>
+                        {project.features[3]}
+                        <br />
+                    </> : null}
                 </div>
             </div>
 

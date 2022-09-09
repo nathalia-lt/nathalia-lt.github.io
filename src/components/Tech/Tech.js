@@ -13,7 +13,7 @@ export default function Tech() {
   return (
     <div className="port-section">
         <div className="tech-information">
-          <h1 className="tech-title">Technical Skills</h1>
+          <h1 className="project-title tech">Technical Skills</h1>
           <div className="tech-tools">
             <div>
               <img src={javascript} alt="js" />

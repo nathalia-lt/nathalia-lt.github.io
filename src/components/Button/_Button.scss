@@ -6,6 +6,7 @@
     cursor: pointer;
     width: 50px;
     transform: scale(1.25);
+    align-self: center;
 
     &.unClicked {
         filter: grayscale(100%);
@@ -15,6 +16,45 @@
             transform: scale(1.1);
             filter: grayscale(50%);
             transition: .5s;
+        }
+    }
+
+    &.eventhunter {
+        transform: scale(1.15);
+        filter: invert(0%);
+        transition: .5s;
+
+        &.unClicked {
+            filter: invert(50%);
+            transition: .5s;
+
+            &:hover {
+                transform: scale(1.05);
+                filter: grayscale(50%);
+                transition: .5s;
+            }
+        }
+
+    }
+
+    &.books-co {}
+
+    &.books-co {}
+
+    &.traderblotter {
+        transform: scale(1.75);
+        filter: invert(0%);
+        transition: .5s;
+
+        &.unClicked {
+            filter: invert(50%);
+            transition: .5s;
+
+            &:hover {
+                transform: scale(1.5);
+                filter: grayscale(50%);
+                transition: .5s;
+            }
         }
     }
 
