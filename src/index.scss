@@ -37,10 +37,10 @@ body {
     width: 5px;
   }
   ::-webkit-scrollbar-track {
-    background: rgb(75, 75, 75);
+    background:#fff;
   }
   ::-webkit-scrollbar-thumb {
-    background-color: #fff;
+    background-color: #9c2e35;
     transition: .5s;
     &:hover{
         background-color: rgb(200, 200, 200);

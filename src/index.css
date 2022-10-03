@@ -101,6 +101,11 @@
   transform: translate(-50%, -50%);
 }
 
+.tech-title {
+  color: #9c2e35;
+  margin-bottom: 45px;
+}
+
 .contact-options {
   display: flex;
   flex-wrap: wrap;
@@ -367,7 +372,7 @@
   font-weight: bold;
 }
 .tech-tools img {
-  height: 90px;
+  height: 70px;
 }
 
 body {
@@ -397,11 +402,11 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: rgb(75, 75, 75);
+  background: #fff;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #fff;
+  background-color: #9c2e35;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
