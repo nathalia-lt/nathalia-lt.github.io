@@ -12,7 +12,7 @@ export default function Contact() {
                     <a className="contact-option" data-tip data-for='email' href="mailto:nathaliatroina@gmail.com">
                         <FontAwesomeIcon icon={faEnvelope} />
                     </a>
-                    <a className="contact-option" data-tip data-for='resume' href='https://docs.google.com/document/d/1GlcHUtMtuDgxiDcfuzaUjeQunfZg9pqu2aYZoEPcJAk/edit?usp=sharing' target="_blank" rel="noopener noreferrer">
+                    <a className="contact-option" data-tip data-for='resume' href='https://docs.google.com/document/d/1NAlLBAjChLCcWagDilAbzEflfYAXoubC/edit?usp=sharing&ouid=102075073654848624027&rtpof=true&sd=true' target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faFileLines} />
                     </a>
                     <a className="contact-option" data-tip data-for='linkedin' href="https://www.linkedin.com/in/nathaliatroina/" target="_blank" rel="noopener noreferrer">
